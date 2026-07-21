@@ -17,7 +17,7 @@ export default function Hero() {
       <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/55 to-purple-950/70" />
 
       {/* Hero Content */}
-      <div className="relative z-10 mx-auto flex min-h-screen max-w-7xl flex-col items-center justify-center px-6 text-center text-white lg:flex-row lg:justify-between">
+      <div className="relative z-10 mx-auto flex min-h-screen max-w-7xl flex-col items-center justify-center px-6 pt-36 md:pt-24 text-center text-white lg:flex-row lg:justify-between">
 
         {/* Left Side */}
         <div className="max-w-2xl">

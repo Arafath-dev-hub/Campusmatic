@@ -1,7 +1,7 @@
 export default function Navbar() {
   return (
-    <header className="fixed top-0 left-0 z-50 w-full px-6">
-      <div className="mx-auto mt-5 flex max-w-7xl items-center justify-between rounded-full border border-white/10 bg-white/5 px-8 py-4 backdrop-blur-3xl shadow-[0_0_60px_rgba(168,85,247,0.30)]">
+    <header className="fixed top-0 left-0 z-50 w-full px-3 md:px-6">
+      <div className="mx-auto mt-3 flex max-w-7xl items-center justify-between rounded-full border border-white/10 bg-white/5 px-4 py-3 md:px-8 md:py-4 backdrop-blur-3xl shadow-[0_0_60px_rgba(168,85,247,0.30)]">
 
         {/* Logo */}
         <div className="flex items-center gap-3">
