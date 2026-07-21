@@ -14,6 +14,8 @@ export default function Basement() {
         src="/images/basement-v2.png"
         alt="Basement"
         fill
+        priority
+        sizes="100vw"
         className="object-cover"
       />
       <div className="absolute inset-0 bg-gradient-to-r from-[#120028]/90 via-[#1a0038]/80 to-[#120028]/90" />
@@ -61,6 +63,7 @@ export default function Basement() {
             src="/images/basement-v2.png"
             alt="Basement"
             fill
+            sizes="(max-width:1024px) 100vw, 50vw"
             className="object-cover object-top"
           />
 
