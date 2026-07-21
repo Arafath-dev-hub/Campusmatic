@@ -63,9 +63,12 @@ export default function Navbar() {
 
         {/* Right Side */}
 
-        <button className="rounded-full bg-gradient-to-r from-purple-600 to-pink-500 px-6 py-3 font-semibold text-white shadow-lg transition hover:scale-105">
-          Share Confession
-        </button>
+        <a
+  href="#basement"
+  className="rounded-full bg-gradient-to-r from-purple-600 to-pink-500 px-5 py-3 text-sm font-semibold text-white shadow-lg transition hover:scale-105"
+>
+  🚪 Enter Basement
+</a>
 
       </div>
     </header>
